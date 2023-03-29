@@ -129,7 +129,7 @@ Entre nas pastas [Sistema de Números e Estudo de Erro](https://github.com/benet
 <!-- ACKNOWLEDGMENTS -->
 ## Agradecimentos <a name="acknowledgments"></a>
 
-Sem a ajuda dos meus professores e colegas, nós não teriamos conseguido chegar até aqui, e nem ter completado nenhuma das tarefas dessa disciplina! Por isso, agradeço especialmente às seguintes pessoas que contribuíram para meu aprendizado em Análise Numérica:
+Sem a ajuda dos meus professores e colegas, eu não teria conseguido chegar até aqui e sequer conseguiria completar as tarefas dessa disciplina! Por isso, agradeço especialmente às seguintes pessoas que contribuíram para meu aprendizado em Análise Numérica:
 
 <table>
   <tr>
