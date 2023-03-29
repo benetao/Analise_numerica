@@ -1,6 +1,6 @@
 <img align="right" alt="ilum" height="40" width="150" src="https://github.com/pedrozanineli/pcd.github.io/blob/main/logo1.png">
 
-## Sistemas de Números e Estudo de Erro
+# Sistemas de Números e Estudo de Erro
   
 Desenvolvimento de Web Scraping em Python de estágios, bolsas de estudo, programas de verão, programas de “work and study” para produção de um site
 
