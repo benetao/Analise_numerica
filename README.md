@@ -26,6 +26,7 @@
   </a>
 
   <h3 align="center">Repositório de Análise Numérica</h3>
+  <p align="center">Por Isabela Bento Beneti</p>
 
   <p align="center">
     Bem vindo ao meu repositório de "Análise Numérica", disciplina do terceiro semestre da Ilum Escola de Ciência!
@@ -42,15 +43,15 @@
     <li>
       <a href="#sobre">Sobre a Disciplina</a>
       <ul>
-        <li><a href="#projeto">O Projeto</a></li>
+        <li><a href="#projeto">O Repositório</a></li>
        </ul>
       <ul>
         <li><a href="#ferramentas">Ferramentas</a></li>
       </ul>
     </li>
-    <li><a href="#progresso">Progresso do Projeto</a></li>
+    <li><a href="#progresso">Progresso do Curso</a></li>
     <li>
-      <a href="#isa">Sobre nós</a>
+      <a href="#isa">Sobre mim</a>
       <ul>
         <li><a href="#contato">Contatos</a></li>
       </ul>
@@ -64,21 +65,17 @@
 <!-- Sobre a Disciplina e o Projeto -->
 ## Sobre a Disciplina <a name="sobre"></a>
 
-Na disciplina de Análise Numérica, ministrada pelo professor Vinícius Wasques, nós- alunos- somos introduzidos a ideias e conceitos matemáticos que complementam o conteúdo visto nas disciplinas de Equações Diferenciais e Álgebra Linear Computacional, nos semestres anteriores. O foco é explorar alguns recursos computacionais para estudar problemas envolvendo equações diferenciais do ponto de vista numérico. Por isso, decidi criar o presente repositório, a fim de organizar os códigos desenvolvidos ao longo dessa disciplina, que incluem conteúdos de: 
+Na disciplina de Análise Numérica, ministrada pelo professor Vinícius Wasques, nós- alunos- somos introduzidos a ideias e conceitos matemáticos que complementam o conteúdo visto nas disciplinas de Equações Diferenciais e Álgebra Linear Computacional, nos semestres anteriores. 
+
+O foco é explorar alguns recursos computacionais para estudar problemas envolvendo equações diferenciais do ponto de vista numérico. Por isso, decidi criar o presente repositório, a fim de organizar os códigos desenvolvidos ao longo dessa disciplina, que incluem conteúdos de: 
 * `Sistemas de Números` 
 * `Estudo de Erro`
 * `Soluções aproximadas de equações`
 * `...`
 
-### O Projeto <a name= "projeto"></a>
+### O Repositório <a name= "projeto"></a>
 
-Ao longo do desenvolvimento do problema representado na imagem abaixo, nós selecionamos todas as variáveis envolvidas a partir de considerações físico-químicas, determinamos os estados termodinâmicos do sistema, calculamos todos os parâmetros e variáveis numéricas do problema utilizando Python, estabelecemos um fluxograma (pipeline) que incorpora todos os cálculos necessários e que é adaptável à escolha de outros líquidos combustíveis, justificando sempre todas as escolhas e soluções encontradas.
-
-<div align="center">
-  <a href="![neural](https://user-images.githubusercontent.com/106626661/225796535-51b41213-8397-435d-ab94-dc64551a2da1.gif)">
-    <img src="https://user-images.githubusercontent.com/106626661/226015817-8e68aac6-a052-4365-b51f-db0617168af1.png" alt="Logo" width="750" height="440">
-  </a>
-</div>
+Como se localizar e organização...
 
 ### Ferramentas <a name="ferramentas"></a>
 
@@ -102,52 +99,26 @@ As principais ferramentas utilizadas para o meu aprendizado disciplina foram, pr
 <!-- Progresso -->
 ## Progresso do Projeto <a name="progresso"></a>
 
-- [x] Desafio 1: Definir a mistura combustível
-    - [x] Definição da Mistura
-    - [x] Definição da Entalpia da Mistura
-    - [x] Definição do Diagrama de Fases da Mistura
+- [x] Sistema de Números e Estudo de Erro
+    - [x] Representação de Números
+    - [x] Aritmética Computacional
+    - [x] Tipos de Erros
     
-- [ ] Desafio 2: Determinar parâmetros termodinâmicos envolvidos na combustão
-    - [ ] Determinação do volume da mistura de líquidos
-    - [ ] Determinação da separação da mistura
-    - [ ] Determinação da não-idealidade das misturas
-    - [ ] Determinação da temperatura mínima de ebulição da mistura
-    - [ ] Determinação de potenciais termodinâmicos da reação de cobustão
+- [ ] Soluções Aproximadas de Equações
+    - [x] Método da Bissecção
+    - [x] Método de Newton
+    - [x] Método da Secante
+    - [x] ...
     
-- [ ] Desafio 3: Fazer balanço estequiométrico e energético até etapa de aquecimento do boiler
-    - [ ] Cálculo da quantidade de energia transferida para a caldeira
-    - [ ] Consideração da quantidade de reagentes usados na combustão
-    - [ ] Consideração das reações envolvidas na combustão
-
-- [ ] Desafio 4: Modelar ciclo termodinâmico que alimenta o gerador
-    - [ ] Definição dos estados do ciclo termodinâmico envolvidos na geração de eletricidade
-    - [ ] Consideração do diagrama de fase da água
-    - [ ] Consideração do diagrama do ciclo de Rankine
-    
-- [ ] Desafio 5: Determinar estado dos subprodutos da combustão
-    - [ ] Cálculo dos estados dos subprodutos gerados
-    - [ ] Consideração da liquefação da água ao final do processo
-    - [ ] Consideração da atividade dos íons na água liquefeita
-   
-- [ ] Desafio 6: Elaborar relatório final
+- [ ] ...
    
 
 Entre nas pastas [Desafio 1](https://github.com/benetao/Termodinamica_Avancada/tree/main/Desafio%201), [Desafio 2](https://github.com/benetao/Termodinamica_Avancada/tree/main/Desafio%202), [Desafio 3](https://github.com/benetao/Termodinamica_Avancada/tree/main/Desafio%203), [Desafio 4](https://github.com/benetao/Termodinamica_Avancada/tree/main/Desafio%204), [Desafio 5](https://github.com/benetao/Termodinamica_Avancada/tree/main/Desafio%205) e [Desafio 6 (Relatório Final)](https://github.com/benetao/Termodinamica_Avancada/tree/main/Desafio%206%20(Relat%C3%B3rio%20Final)) para acessar os notebooks e arquivos dos respectivos desafios com suas resoluções. Se quiser vê-los no seu próprio computador, baixe a pasta inteira para conseguir rodar o código com as imagens.
-<!-- Sobre mim -->
-## Sobre nós
-
-Quem são os alunos por trás desse projeto de Termodinâmica Avançada? Pois bem, permita-nos nos apresentar:
-
-- 👋 Somos Gabriel Pereira e Isabela Beneti
-- 📕 Estamos no terceiro semestre do Bacharelado em Ciência e Tecnologia da Ilum Escola de Ciência
-- 👨‍🔬 A Ilum é uma iniciativa da instituição social CNPEM (Centro Nacional de Pesquisa em Energia e Materiais)
-- 🔥 No curso, temos uma grade curricular bem interdisciplinar, que inclui a matéria de Termodinâmica Avançada
-- 🚗 Nosso objetivo, na disciplina, é entender melhor processos termodinâmicos e suas aplicações na vida real
 
 <!-- CONTATO -->
 ### Contatos <a name="contato"></a>
- 
 <div>
+ <img align="right" alt="Rafa-Python" height="120" width="120" src= https://user-images.githubusercontent.com/106626661/193426485-7901d706-9c84-4afd-9e91-e5b39dbdfd61.png>
   <a href="https://instagram.com/isa.beneti" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href = "mailto:isabela220039@ilum.cnpem.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/isabela-bento-beneti-044183236" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
@@ -156,10 +127,12 @@ Quem são os alunos por trás desse projeto de Termodinâmica Avançada? Pois be
 
 
 
+
+
 <!-- ACKNOWLEDGMENTS -->
 ## Agradecimentos <a name="acknowledgments"></a>
 
-Sem a ajuda dos professores e técnicos da Ilum, nós não teriamos conseguido chegar até onde chegamos! Por isso, agradecemos às seguintes pessoas que contribuíram para este projeto:
+Sem a ajuda dos meus professores e colegas, nós não teriamos conseguido chegar até aqui, e nem ter completado nenhuma das tarefas dessa disciplina! Por isso, agradeço especialmente às seguintes pessoas que contribuíram para meu aprendizado em Análise Numérica:
 
 <table>
   <tr>
@@ -173,17 +146,17 @@ Sem a ajuda dos professores e técnicos da Ilum, nós não teriamos conseguido c
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://user-images.githubusercontent.com/106626661/228414040-f462bad8-8d0d-41fb-bb9a-9d8210e2eea1.png" width="100px;" alt="Foto do Pepe"/><br>
+        <img src="https://user-images.githubusercontent.com/106626661/228416561-ad5869c7-2720-494d-901a-4d2b622ed4af.png" width="100px;" alt="Foto do ga"/><br>
         <sub>
-          <b>Felipe Crasto (Professor)</b>
+          <b>Gabriel Pereira (Colega)</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://user-images.githubusercontent.com/106626661/226698185-db45afae-5bb1-4f08-aef7-6161738d9c5e.png" width="100px;" alt="Foto do Gui"/><br>
+        <img src="https://user-images.githubusercontent.com/106626661/228416164-2ba7dbc5-21c3-4d35-b2ca-3b63f4204597.png" width="100px;" alt="Foto do Gui"/><br>
         <sub>
-          <b>Alessandro Mourato (Técnico)</b>
+          <b> Eduarga Veiga (Colega)</b>
         </sub>
       </a>
     </td>
