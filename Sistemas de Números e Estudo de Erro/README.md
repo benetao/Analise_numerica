@@ -1,17 +1,24 @@
 <img align="right" alt="ilum" height="40" width="150" src="https://github.com/pedrozanineli/pcd.github.io/blob/main/logo1.png">
 
 # Sistemas de Números e Estudo de Erro
-  
-Desenvolvimento de Web Scraping em Python de estágios, bolsas de estudo, programas de verão, programas de “work and study” para produção de um site
 
-No presente repositório, o arquivo `projeto-final.ipynb` são as etapas do desenvolvimento do projeto e do desenvolvimento do *web scrapping*, ao passo de que `index.md` e `programas.md` fazem parte da construção do site. Por fim, os arquivos `config.yml` e o diretório `_data` estão relacionados com a configuração e dados das páginas, respectivamente. O arquivo Artigo - "Webscrapping" e Programas de Estudo refere-se ao trabalho desenvolvido para o programa elaborado.
-
-Para a realização do projeto, a descrição completa pode ser encontrada no artigo existente no repositório, assim como um Jupyter Notebook com todas as etapas seguidas. De maneira simplificada, a estrutura do projeto é descrita a seguir.
+No dia-a-dia de um cientista, é muito comum a utilização de simulações numéricas, a fim de obter aproximações de resultados teóricos ou experimentais. Ao criarmos modelos matemáticos para fenômenos físicos, químicos ou biológicos, presumimos que a solução para o problema terá que ser encontrada por meio do uso de computadores. Uma vez que o modelo tenha sido criado, é importante realizar uma análise numérica da solução, que inclui a verificação de erros que possam afetar o comportamento da solução, bem como sua precisão e convergência. Para isso, é necessário avaliar o tamanho adequado dos passos para cada método, o número necessário de iterações e assim por diante.
 
 ## Aritmética computacional
 
-Como ponto de partida, a biblioteca *feedparser* é utilizada com o intuito de realizar a coleta dos dados a serem inseridos no site, apoiando-se em sites do tipo RSS. Quando um link é passado, é realizado um parse, permitindo o armazenamento em uma variável.
+Em modelos matemáticos computacionais, é muito comum que nos deparemos com números que não são reais, como, por exemplo $\sqrt{2}$ , número irracional, que possui infinitas casas decimais, significando que para representar esse valor numérico no computador é preciso aproximá-lo, e portanto, comete-se um erro nesse cálculo.
 
+Existem dois principais métodos de aproximação:
+* `Arredondamento`: se o último dígito é maior ou igual a 5 então soma-se 1 ao dígito anterior; se o último dígito é menor que 5, então desconsidera-se o último dígito;
+* `Truncamento`: simplesmente desconsidera o último dígito
+
+Para calcular os erros gerado quando aproximamos um número $n$ para $n^*$, temos:
+
+* `Erro Absoluto`: $e(n)=$ $|n - n^*|$
+
+* `Erro Eelativo`: $e(n)=$ $\frac{|n - n^*|}{n}$
+
+Em python, podemos calcular esses erros definindo as seguintes funções:
 ```python
 current_feed = feedparser.parse(links[0])
 ```
@@ -22,6 +29,10 @@ A partir disso, é possível buscar algumas estruturas do site que são do inter
 current_feed.feed.title,current_feed.feed.link,current_feed.feed.description
 ```
 ## Tipos de Erro
+
+*`Algoritmo estável`: tipo de método numérico mais confiável, pois não propaga erro dos dados iniciais
+
+*`Algoritmo estável`: menos confiável, pois propaga o erro dos dados iniciais
 
 Em seguida, levando em consideração que o site é destinado a estudantes brasileiros, é interessante a tradução do texto em inglês para o português, e, para tanto, foi usada a biblioteca Google Translator. Passamos como parâmetro da função `translate` da biblioteca a string a ser traduzida, seguida do seu destino, isto é, para que língua o texto deve ser traduzido.
 
