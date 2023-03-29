@@ -64,17 +64,11 @@
 <!-- Sobre a Disciplina e o Projeto -->
 ## Sobre a Disciplina <a name="sobre"></a>
 
-Na disciplina de Termodinâmica Avançada, ministrada pelo professor Amauri de Paula, nós- alunos- fomos desafiados a resolver um problema envolvendo um sistema composto por uma usina elétrica a vapor operando a partir da combustão de uma mistura líquida de combustíveis. Para resolvê-lo, devemos passar por várias etapas e desafios, que engloba temas centrais da termodinâmica, como:
-* `Energia interna` 
-* `Entalpia`
-* `Energia livre`
-* `Transições de fase`
-* `Misturas e soluções`
-* `Reações químicas`
-* `Quantidades parciais molares`
-* `Compressibilidade e gás real`
-* `Ciclos termodinâmicos`
-
+Na disciplina de Análise Numérica, ministrada pelo professor Vinícius Wasques, nós- alunos- somos introduzidos a ideias e conceitos matemáticos que complementam o conteúdo visto nas disciplinas de Equações Diferenciais e Álgebra Linear Computacional, nos semestres anteriores. O foco é explorar alguns recursos computacionais para estudar problemas envolvendo equações diferenciais do ponto de vista numérico. Por isso, decidi criar o presente repositório, a fim de organizar os códigos desenvolvidos ao longo dessa disciplina, que incluem conteúdos de: 
+* `Sistemas de Números` 
+* `Estudo de Erro`
+* `Soluções aproximadas de equações`
+* `...`
 
 ### O Projeto <a name= "projeto"></a>
 
@@ -88,12 +82,16 @@ Ao longo do desenvolvimento do problema representado na imagem abaixo, nós sele
 
 ### Ferramentas <a name="ferramentas"></a>
 
-As ferramentas utilizadas para desenvolver o projeto dessa disciplina foram, principalmente, as plataformas Github e Jupyter Notebook, em que escrevemos os códigos usando a  linguagem Pyhton.
+As principais ferramentas utilizadas para o meu aprendizado disciplina foram, principalmente, as plataformas Jupyter Notebook, em que escrevi os códigos usando a  linguagem Pyhton, o Geogebra, para vizualização de fórmulas e entendimento da análise geométrica dos problemas, e, por fim, o Github.
 </div>
 <div align="center">
-<img align="center" alt="Rafa-Python" height="60" width="60" src= https://user-images.githubusercontent.com/106626661/225802391-d24ac038-78b1-4b2d-8720-f5f9fb4dac9a.png>
  <img align="center" alt="Rafa-Python" height="70" width="70" src= https://user-images.githubusercontent.com/106626661/225802823-3edf4493-8191-433f-9152-7e73b941aadb.png>
+ 
  <img align="center" alt="Rafa-Python" height="60" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+ 
+ <img align="center" alt="Rafa-Python" height="60" width="60" src= https://user-images.githubusercontent.com/106626661/228415402-be274d67-05c0-45f1-84c4-fc3c757a176c.png>
+ 
+ <img align="center" alt="Rafa-Python" height="60" width="60" src= https://user-images.githubusercontent.com/106626661/225802391-d24ac038-78b1-4b2d-8720-f5f9fb4dac9a.png>
  
 </div>
 
