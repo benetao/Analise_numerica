@@ -18,7 +18,7 @@ Para calcular os erros gerado quando aproximamos um número $n$ para $n^*$, temo
 
 * `Erro Eelativo`: $e(n)=$ $\frac{|n - n^*|}{n}$
 
-Em python, podemos calcular esses erros definindo as seguintes funções:
+Em python, podemos calcular esses erros definindo as seguintes funções, presentes no jupyter notebook da pasta:
 ```python
 current_feed = feedparser.parse(links[0])
 ```
@@ -32,46 +32,6 @@ current_feed.feed.title,current_feed.feed.link,current_feed.feed.description
 
 *`Algoritmo estável`: tipo de método numérico mais confiável, pois não propaga erro dos dados iniciais
 
-*`Algoritmo estável`: menos confiável, pois propaga o erro dos dados iniciais
+*`Algoritmo instável`: menos confiável, pois propaga o erro dos dados iniciais
 
-Em seguida, levando em consideração que o site é destinado a estudantes brasileiros, é interessante a tradução do texto em inglês para o português, e, para tanto, foi usada a biblioteca Google Translator. Passamos como parâmetro da função `translate` da biblioteca a string a ser traduzida, seguida do seu destino, isto é, para que língua o texto deve ser traduzido.
-
-```python
-trans.translate('Hello, world!',dest='pt').origin
-trans.translate('Hello, world!',dest='pt').text
-```
-
-Note que no código acima podemos buscar o texto original com a extensão `.origin` e o texto em si traduzido com `.text`.
-
-## Implementação do código
-
-Com base no exposto, finalmente podemos realizar a coleta dos dados e realizar uma inserção em um arquivo `.csv`, com as colunas "name", "date" e "link". No código a seguir, o loop é destinado por passar por todos os elementos encontrados e inserir no arquivo de destino.
-
-```python
-for link in links:
-    current_feed = feedparser.parse(link)
-    for n in range(len(current_feed.entries)-1):
-        text = trans.translate((current_feed.entries[n].title),dest='pt').text 
-        print(text)
-        print(current_feed.entries[n].published[5:16])
-        print(current_feed.entries[n].link)
-        print()
-```
-
-Uma vez que o arquivo estava pronto, foi possível realizar a atualização de um arquivo já existente neste repositório (`\dados\dados.csv`) para que os dados desejados pudessem ser usados.
-
-## Integração dos dados e site
-
-Com o intuito de integrar os dados no site, foi utilizado o Liquid templating system, que é uma variável construída no próprio Jekyll. Como parte de perfumaria, os dados foram colocados dentro de um retângulo estilizado.
-
-```md
-{% for dado in site.data.dados %}
-
-  <div style="margin-bottom:8px;border: 0.5px solid grey;border-radius: 5px;">
-    <div style="padding:10px;">
-      <strong>{{ dado.name }}</strong><br>
-      {{ dado.date }} • <a href="{{ dado.link }}" target="_blank">Link</a>
-    </div>
-  </div>
-{% endfor %}
-```
+Algoritimos instáveis podem, muitas vezes, resultar num `Erro exponencial`, isto é, um erro para que,a pós $n$ operações sucessivas, pode ser calculado por $E_n = C^nE_0$, sendo C > 1. Normalmente, os resultados mais aceitáveis possuem `Erro Linerare`, geralmente resultantes de algoritmos estáveis. 
