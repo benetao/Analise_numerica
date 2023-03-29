@@ -22,7 +22,7 @@
 
 <div align="center">
   <a href="![neural](https://user-images.githubusercontent.com/106626661/225796535-51b41213-8397-435d-ab94-dc64551a2da1.gif)">
-    <img src="https://user-images.githubusercontent.com/106626661/228412974-4221b846-1bd9-4c57-99a8-2c49c5466af9.png" alt="Logo" width="440" height="220">
+    <img src="https://user-images.githubusercontent.com/106626661/228412974-4221b846-1bd9-4c57-99a8-2c49c5466af9.png" alt="Logo" width="440" height="230">
   </a>
 
   <h3 align="center">Repositório de Análise Numérica</h3>
@@ -51,10 +51,7 @@
     </li>
     <li><a href="#progresso">Progresso do Curso</a></li>
     <li>
-      <a href="#isa">Sobre mim</a>
-      <ul>
-        <li><a href="#contato">Contatos</a></li>
-      </ul>
+      <a href="#contato">Contato</a>
     </li>
     <li><a href="#acknowledgments">Agradecimentos</a></li>
   </ol>
@@ -113,10 +110,10 @@ As principais ferramentas utilizadas para o meu aprendizado disciplina foram, pr
 - [ ] ...
    
 
-Entre nas pastas [Sistema de Números e Estudo de Erro](https://github.com/benetao/Analise_numerica/tree/main/Sistemas%20de%20N%C3%BAmeros%20e%20Estudo%20de%20Erro), [Soluções Aproximadas de Equações](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es), ... para acessar os notebooks e arquivos dos respectivos assuntos com explicações, códigos e resoluções de exercício. Se quiser ver os seus notebooks no seu próprio computador, baixe a pasta inteira para conseguir rodar o código com as imagens.
+Entre nas pastas [Sistema de Números e Estudo de Erro](https://github.com/benetao/Analise_numerica/tree/main/Sistemas%20de%20N%C3%BAmeros%20e%20Estudo%20de%20Erro) e [Soluções Aproximadas de Equações](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es) para acessar os notebooks e arquivos dos respectivos assuntos com explicações, códigos e resoluções de exercício. Se quiser ver os seus notebooks no seu próprio computador, baixe a pasta inteira para conseguir rodar o código com as imagens.
 
 <!-- CONTATO -->
-### Contatos <a name="contato"></a>
+## Contato <a name="contato"></a>
 <div>
  <img align="right" alt="Rafa-Python" height="120" width="120" src= https://user-images.githubusercontent.com/106626661/193426485-7901d706-9c84-4afd-9e91-e5b39dbdfd61.png>
   <a href="https://instagram.com/isa.beneti" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
