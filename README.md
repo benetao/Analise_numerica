@@ -113,7 +113,7 @@ As principais ferramentas utilizadas para o meu aprendizado disciplina foram, pr
 - [ ] ...
    
 
-Entre nas pastas [Desafio 1](https://github.com/benetao/Termodinamica_Avancada/tree/main/Desafio%201), [Desafio 2](https://github.com/benetao/Termodinamica_Avancada/tree/main/Desafio%202), [Desafio 3](https://github.com/benetao/Termodinamica_Avancada/tree/main/Desafio%203), [Desafio 4](https://github.com/benetao/Termodinamica_Avancada/tree/main/Desafio%204), [Desafio 5](https://github.com/benetao/Termodinamica_Avancada/tree/main/Desafio%205) e [Desafio 6 (Relatório Final)](https://github.com/benetao/Termodinamica_Avancada/tree/main/Desafio%206%20(Relat%C3%B3rio%20Final)) para acessar os notebooks e arquivos dos respectivos desafios com suas resoluções. Se quiser vê-los no seu próprio computador, baixe a pasta inteira para conseguir rodar o código com as imagens.
+Entre nas pastas [Sistema de Números e Estudo de Erro](https://github.com/benetao/Analise_numerica/tree/main/Sistemas%20de%20N%C3%BAmeros%20e%20Estudo%20de%20Erro), [Soluções Aproximadas de Equações](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es), ... para acessar os notebooks e arquivos dos respectivos assuntos com explicações, códigos e resoluções de exercício. Se quiser ver os seus notebooks no seu próprio computador, baixe a pasta inteira para conseguir rodar o código com as imagens.
 
 <!-- CONTATO -->
 ### Contatos <a name="contato"></a>
