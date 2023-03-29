@@ -81,15 +81,20 @@ def newton(f, df, p0, eps=1e-6):
 
 
 ## Método da Secante
+ 
+ O método da secante é uma variação do método de Newton para encontrar raízes de uma função. Contudo, o método da secante não requer o cálculo da derivada da função, o que o torna mais simples em algumas situações.
 
-O método da secante é um método numérico utilizado para encontrar raízes de equações em uma variável. É uma variação do método de Newton que não requer a avaliação da derivada da função. Em vez disso, o método da secante aproxima a derivada utilizando uma reta secante que passa por dois pontos da curva da função.
+Para obter o método da secante a partir do método de Newton, basta substituir a a derivada $f'(x_n)$ pela aproximação de diferenças finita, que é dada por: 
+ 
+ $f'(x_n) = \frac{f(x_n) - f(x_{n-1})}{x_n - x_{n-1}}$
+ 
+ Logo, substindo isso na fórmula do método da bissecção, obtemos:
+ 
+ $f'(x_{k+1}) = \frac {f(x_k)x_{k-1}- f(x_{k-1})x_k}{f(x_k) - f(x_{k-1})}$
 
-A fórmula do método da secante é dada por: $x_{n+1} = x_n - \frac{f(x_n)(x_n - x_{n-1})}{f(x_n) - f(x_{n-1})}$, onde $x_n$ e $x_{n-1}$ são as duas últimas aproximações da raiz, $f(x_n)$ e $f(x_{n-1})$ são os valores da função nessas aproximações.
-
-O método da secante começa com duas aproximações iniciais $x_0$ e $x_1$. A partir daí, a equação acima é utilizada para encontrar uma nova aproximação $x_{n+1}$ em cada iteração. Esse processo é repetido até que a diferença entre a aproximação atual e a anterior seja menor que um certo valor de tolerância.
-
-O método da secante pode convergir para a raiz da equação mais rapidamente do que o método da bissecção, mas é geralmente mais lento do que o método de Newton. No entanto, ao contrário do método de Newton, ele não requer a avaliação da derivada da função, o que pode ser útil em algumas situações em que a derivada é difícil de calcular ou a função é muito complexa.
-
+Ou seja, ao invés de usar a derivada $f'(x_n)$, ela utiliza uma aproximação da derivada calculada a partir de dois pontos próximos da curva da função.
+Apesar de não requerer a avaliação da derivada da função, o que é uma vantagem, o método da secante geralmente é mais lento que o de Newton, podendo levar mais iterações para chegar a um resultado.
+ 
 Em python, o método de Newton pode ser implementado pelo código abaixo, presente no jupyter notebook [Método de Newton](https://github.com/benetao/Analise_numerica/blob/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es/Metodo_de_Newton.ipynb) dessa pasta:
 
 ```python
@@ -111,5 +116,11 @@ def secante(f, x0, x1, eps):
         i += 1 # contador de iteração
     return x2, i
 ```
+### Representação Geométrica
+ <p align="center"><img heigth= 120 width= 550 src= "https://user-images.githubusercontent.com/106626661/228674014-8905f095-afbc-4ad1-9fde-96ed34dac3c9.png">
+
+
+ 
+Podemos observar, por meio da representação geométrica, que, ao aplicar essa fórmula, a estimativa da raiz $x_{n+1}$ é calculada como a intersecção entre a reta que passa pelos pontos $(x_n, f(x_n))$ e $(x_{n-1}, f(x_{n-1}))$ e o eixo $x$:
 
 
