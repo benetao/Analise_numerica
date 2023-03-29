@@ -16,17 +16,27 @@ Para calcular os erros gerado quando aproximamos um número $n$ para $n^*$, temo
 
 * `Erro Absoluto`: $e(n)=$ $|n - n^*|$
 
-* `Erro Eelativo`: $e(n)=$ $\frac{|n - n^*|}{n}$
+* `Erro Relativo`: $e(n)=$ $\frac{|n - n^*|}{n}$
 
-Em python, podemos calcular esses erros definindo as seguintes funções, presentes no jupyter notebook da pasta:
+Em python, podemos calcular erro absoluto definindo a seguinte função, presentes no jupyter notebook da pasta:
 ```python
-current_feed = feedparser.parse(links[0])
+def erro_absoluto(valor_real, valor_aproximado):
+    """
+    Calcula o erro absoluto de uma aproximação em relação ao valor real.
+    """
+    return abs(valor_real - valor_aproximado)
 ```
 
-A partir disso, é possível buscar algumas estruturas do site que são do interesse para o desenvolvimento do site, sendo, no caso, o título, o link e a data de publicação da matéria. Para tanto, podemos utilizar o seguinte formato:
+Já para calcular o erro relativo de uma aproximação, pode-se utilizar o código:
 
 ```python
-current_feed.feed.title,current_feed.feed.link,current_feed.feed.description
+    
+def erro_relativo(valor_real, valor_aproximado):
+    """
+    Calcula o erro relativo de uma aproximação em relação ao valor real.
+    """
+    return abs((valor_real - valor_aproximado) / valor_real)
+
 ```
 ## Tipos de Erro
 
@@ -34,4 +44,4 @@ current_feed.feed.title,current_feed.feed.link,current_feed.feed.description
 
 *`Algoritmo instável`: menos confiável, pois propaga o erro dos dados iniciais
 
-Algoritimos instáveis podem, muitas vezes, resultar num `Erro exponencial`, isto é, um erro para que,a pós $n$ operações sucessivas, pode ser calculado por $E_n = C^nE_0$, sendo C > 1. Normalmente, os resultados mais aceitáveis possuem `Erro Linerare`, geralmente resultantes de algoritmos estáveis. 
+Algoritimos instáveis podem, muitas vezes, resultar num `Erro exponencial`, isto é, um erro para que,a pós $n$ operações sucessivas, pode ser calculado por $E_n = C^nE_0$, sendo C > 1. Normalmente, os resultados mais aceitáveis possuem `Erro Linerar`, geralmente resultantes de algoritmos estáveis. 
