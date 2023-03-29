@@ -37,8 +37,17 @@ def bissecao(inicio, fim, parada, N): #inicio= começo do intervalo dado; fim= f
 
 ## Método de Newton
 
+O método de Newton, ou método das tangentes, utiliza uma aproximação inicial da raiz e aprimora essa aproximação através de sucessivas iterações. O método de Newton é baseado no conceito de que a raiz de uma equação é o ponto em que a curva da função cruza o eixo das abscissas.
 
-.....
+A fórmula do método de Newton é dada por:
+$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$
+Onde $x_n$ é a aproximação atual da raiz, $x_{n+1}$ é a próxima aproximação, $f(x_n)$ é o valor da função na aproximação atual e $f'(x_n)$ é a derivada da função na aproximação atual.
+
+O método de Newton começa com uma aproximação inicial $x_0$. A cada iteração, a equação acima é utilizada para encontrar uma nova aproximação $x_{n+1}$. Esse processo é repetido até que a diferença entre a aproximação atual e a anterior seja menor que um certo valor de tolerância.
+
+O método de Newton pode convergir para a raiz da equação muito mais rapidamente do que outros métodos numéricos, como o método da bissecção. No entanto, ele também pode ser mais sensível a aproximações iniciais ruins e a funções com pontos de inflexão próximos à raiz.
+
+
 
 Em python, o método de Newton pode ser implementado pelo código abaixo, presente no jupyter notebook [Método de Newton](https://github.com/benetao/Analise_numerica/blob/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es/Metodo_de_Newton.ipynb) dessa pasta:
 
@@ -70,11 +79,16 @@ def newton(f, df, p0, eps=1e-6):
     return p
 ```
 
-Note que no código acima podemos buscar o texto original com a extensão `.origin` e o texto em si traduzido com `.text`.
 
 ## Método da Secante
 
-...
+O método da secante é um método numérico utilizado para encontrar raízes de equações em uma variável. É uma variação do método de Newton que não requer a avaliação da derivada da função. Em vez disso, o método da secante aproxima a derivada utilizando uma reta secante que passa por dois pontos da curva da função.
+
+A fórmula do método da secante é dada por: $x_{n+1} = x_n - \frac{f(x_n)(x_n - x_{n-1})}{f(x_n) - f(x_{n-1})}$, onde $x_n$ e $x_{n-1}$ são as duas últimas aproximações da raiz, $f(x_n)$ e $f(x_{n-1})$ são os valores da função nessas aproximações.
+
+O método da secante começa com duas aproximações iniciais $x_0$ e $x_1$. A partir daí, a equação acima é utilizada para encontrar uma nova aproximação $x_{n+1}$ em cada iteração. Esse processo é repetido até que a diferença entre a aproximação atual e a anterior seja menor que um certo valor de tolerância.
+
+O método da secante pode convergir para a raiz da equação mais rapidamente do que o método da bissecção, mas é geralmente mais lento do que o método de Newton. No entanto, ao contrário do método de Newton, ele não requer a avaliação da derivada da função, o que pode ser útil em algumas situações em que a derivada é difícil de calcular ou a função é muito complexa.
 
 Em python, o método de Newton pode ser implementado pelo código abaixo, presente no jupyter notebook [Método de Newton](https://github.com/benetao/Analise_numerica/blob/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es/Metodo_de_Newton.ipynb) dessa pasta:
 
@@ -97,7 +111,5 @@ def secante(f, x0, x1, eps):
         i += 1 # contador de iteração
     return x2, i
 ```
-
-Uma vez que o arquivo estava pronto, foi possível realizar a atualização de um arquivo já existente neste repositório (`\dados\dados.csv`) para que os dados desejados pudessem ser usados.
 
 
