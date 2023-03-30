@@ -78,6 +78,8 @@ def newton(f, df, p0, eps=1e-6):
         # Verificamos se o valor atual de x é uma aproximação suficientemente boa para uma raiz
     return p
 ```
+### Representação Geométrica
+<p align="center"><img heigth= 120 width= 550 src= "https://user-images.githubusercontent.com/106626661/228925639-212a05c1-e230-4474-b5d8-e525db3e8df5.png">
 
 
 ## Método da Secante
