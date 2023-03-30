@@ -3,8 +3,7 @@
 # Sistemas de Números e Estudo de Erro
 
 No dia-a-dia de um cientista, é muito comum a utilização de simulações numéricas, a fim de obter aproximações de resultados teóricos ou experimentais. Ao criarmos modelos matemáticos para fenômenos físicos, químicos ou biológicos, presumimos que a solução para o problema terá que ser encontrada por meio do uso de computadores. Uma vez que o modelo tenha sido criado, é importante realizar uma análise numérica da solução, que inclui a verificação de erros que possam afetar o comportamento da solução, bem como sua precisão e convergência. Para isso, é necessário avaliar o tamanho adequado dos passos para cada método, o número necessário de iterações e assim por diante.
-
-## Aritmética computacional
+<details><summary><h2><b>Aritmética computacional</h2></b></summary>
 
 Em modelos matemáticos computacionais, é muito comum que nos deparemos com números que não são reais, como, por exemplo $\sqrt{2}$ , número irracional, que possui infinitas casas decimais, significando que para representar esse valor numérico no computador é preciso aproximá-lo, e portanto, comete-se um erro nesse cálculo.
 
@@ -37,13 +36,15 @@ def erro_relativo(valor_real, valor_aproximado):
     return abs((valor_real - valor_aproximado) / valor_real)
 
 ```
-## Tipos de Erro
+</details>
+<details><summary><h2><b>Tipos de Erro</h2></b></summary>
 
 *`Algoritmo estável`: tipo de método numérico mais confiável, pois não propaga erro dos dados iniciais
 
 *`Algoritmo instável`: menos confiável, pois propaga o erro dos dados iniciais
 
 Algoritimos instáveis podem, muitas vezes, resultar num `Erro exponencial`, isto é, um erro para que,a pós $n$ operações sucessivas, pode ser calculado por $E_n = C^nE_0$, sendo C > 1. Normalmente, os resultados mais aceitáveis possuem `Erro Linerar`, geralmente resultantes de algoritmos estáveis. 
+</details>
 
 ## Referências
 <p>
