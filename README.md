@@ -72,7 +72,9 @@ O foco é explorar alguns recursos computacionais para estudar problemas envolve
 
 ### O Repositório <a name= "projeto"></a>
 
-Como se localizar e organização...
+Esse repositório foi criado para fins de organização pessoal da estudante. Nele, você encontra o conteúdo da matéria de Análise Numérica dividido em pastas. Nas pastas, está presente a explicação teórica de cada assunto no documento do README, que foi escrito com base no material de aula disponibilizado pelo professor. Além disso, em cada pasta há Jupyter Notebooks com as atividades realizadas em sala de aula, contendo as resoluções dos exercícios propostos em classe.
+
+Caso você queria abrir um dos notebooks em seu aparelho, basta baixar a pasta inteira , para então conseguir abrir 
 
 ### Ferramentas <a name="ferramentas"></a>
 
