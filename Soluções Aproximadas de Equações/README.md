@@ -86,7 +86,7 @@ def newton(f, df, p0, eps=1e-6):
 
  </details>
  
-<details><summary><h2><b> Método da secante</h2></b></summary>
+<details><summary><h2><b> Método da Secante</h2></b></summary>
  
  O método da secante é uma variação do método de Newton para encontrar raízes de uma função. Contudo, o método da secante não requer o cálculo da derivada da função, o que o torna mais simples em algumas situações.
 
