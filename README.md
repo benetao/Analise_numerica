@@ -145,6 +145,14 @@ Sem a ajuda dos meus professores e colegas, eu não teria conseguido chegar até
     </td>
     <td align="center">
       <a href="#">
+        <img src="https://user-images.githubusercontent.com/106626661/228932253-400d7535-b2e7-4b29-b670-b3cec9a61be5.png" width="100px;" alt="Foto do Prof"/><br>
+        <sub>
+          <b>Daniel Cassar (Professor)</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
         <img src="https://user-images.githubusercontent.com/106626661/228416561-ad5869c7-2720-494d-901a-4d2b622ed4af.png" width="100px;" alt="Foto do ga"/><br>
         <sub>
           <b>Gabriel Pereira (Colega)</b>
@@ -156,6 +164,14 @@ Sem a ajuda dos meus professores e colegas, eu não teria conseguido chegar até
         <img src="https://user-images.githubusercontent.com/106626661/228416164-2ba7dbc5-21c3-4d35-b2ca-3b63f4204597.png" width="100px;" alt="Foto do Gui"/><br>
         <sub>
           <b> Eduarga Veiga (Colega)</b>
+        </sub>
+      </a>
+    </td>
+      <td align="center">
+      <a href="#">
+        <img src="https://user-images.githubusercontent.com/106626661/228933315-65c27995-ed63-4c3b-bf99-e4a122866765.png" width="100px;" alt="Foto do Gui"/><br>
+        <sub>
+          <b> João Caramês (Colega)</b>
         </sub>
       </a>
     </td>
