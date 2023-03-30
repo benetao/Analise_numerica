@@ -30,7 +30,6 @@ def erro_absoluto(valor_real, valor_aproximado):
 Já para calcular o erro relativo de uma aproximação, pode-se utilizar o código:
 
 ```python
-    
 def erro_relativo(valor_real, valor_aproximado):
     """
     Calcula o erro relativo de uma aproximação em relação ao valor real.
