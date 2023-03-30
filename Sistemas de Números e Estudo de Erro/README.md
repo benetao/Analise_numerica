@@ -46,8 +46,9 @@ def erro_relativo(valor_real, valor_aproximado):
 Algoritimos instáveis podem, muitas vezes, resultar num `Erro exponencial`, isto é, um erro para que,a pós $n$ operações sucessivas, pode ser calculado por $E_n = C^nE_0$, sendo C > 1. Normalmente, os resultados mais aceitáveis possuem `Erro Linerar`, geralmente resultantes de algoritmos estáveis. 
 
 ## Referências
-Burden, R.L. and Faires, J.D., 2003. Análise numérica. Thomson. 
-
-Conte, S., 1965. Elementary numerical analysis. McGraw Hill. 
-
+<p>
+Burden, R.L. and Faires, J.D., 2003. Análise numérica. Thomson. <br />
+Conte, S., 1965. Elementary numerical analysis. McGraw Hill. <br />
 Ruggiero, M.A.G. and Lopes, V.L.R., 2000. Cálculo numérico: Aspectos teóricos e computacionais. Pearson Universidades.
+
+</p>
