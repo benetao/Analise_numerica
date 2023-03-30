@@ -2,8 +2,8 @@
 
 # Soluções Aproximadas de Equações
  Algumas equações algébricas não são simples de se resolver analiticamente, e, por isso, faz-se necessário discutir mecanismos numéricos para obter soluções aproximadas desse tipo de equação. Apesar desses mecanismos muitas vezes não retornarem soluções exatas, eles podem fornecer aproximações muito boas e úteis para resolução de problemas.
-## Método de Bissecção
 
+<details><summary><h2><b> Método de Bissecção</h2></b></summary>
 Um dos métodos para se alcançar raízes aproximadas de equações é o da bisecção. Nele, definimos um intervalo inicial $[a, b]$ da função e vamos diminuindo em outros menores até encontrar o valor $p$, próximo da resposta. Para tanto, calculamos o ponto médio do intervalo, dado por $p = \frac{a+b}{2}$. 
 
 Se $f(p)=0$, encontramos o nosso resultado! 
@@ -35,7 +35,10 @@ def bissecao(inicio, fim, parada, N): #inicio= começo do intervalo dado; fim= f
 ### Representação Geométrica
 <p align="center"><img heigth= 120 width= 550 src= "https://user-images.githubusercontent.com/106626661/228638909-4301ca3e-47f3-457b-8378-e78a37556308.png">
 
-## Método de Newton
+</details>
+
+
+<details><summary><h2><b> Método de Newton</h2></b></summary>
 
 O método de Newton, ou método das tangentes, utiliza uma aproximação inicial da raiz e aprimora essa aproximação através de sucessivas iterações. O método de Newton é baseado no conceito de que a raiz de uma equação é o ponto em que a curva da função cruza o eixo das abscissas.
 
@@ -81,8 +84,9 @@ def newton(f, df, p0, eps=1e-6):
 ### Representação Geométrica
 <p align="center"><img heigth= 120 width= 550 src= "https://user-images.githubusercontent.com/106626661/228925639-212a05c1-e230-4474-b5d8-e525db3e8df5.png">
 
-
-## Método da Secante
+ </details>
+ 
+<details><summary><h2><b> Método da secante</h2></b></summary>
  
  O método da secante é uma variação do método de Newton para encontrar raízes de uma função. Contudo, o método da secante não requer o cálculo da derivada da função, o que o torna mais simples em algumas situações.
 
@@ -124,8 +128,10 @@ def secante(f, x0, x1, eps):
 
  
 Podemos observar, por meio da representação geométrica, que, ao aplicar essa fórmula, a estimativa da raiz $x_{n+1}$ é calculada como a intersecção entre a reta que passa pelos pontos $(x_n, f(x_n))$ e $(x_{n-1}, f(x_{n-1}))$ e o eixo $x$:
-## Referências
 <p>
+</details>
+
+## Referências
 Burden, R.L. and Faires, J.D., 2003. Análise numérica. Thomson. <br />
 Conte, S., 1965. Elementary numerical analysis. McGraw Hill. <br />
 Ruggiero, M.A.G. and Lopes, V.L.R., 2000. Cálculo numérico: Aspectos teóricos e computacionais. Pearson Universidades.
