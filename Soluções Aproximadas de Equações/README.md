@@ -130,7 +130,9 @@ def secante(f, x0, x1, eps):
 Podemos observar, por meio da representação geométrica, que, ao aplicar essa fórmula, a estimativa da raiz $x_{n+1}$ é calculada como a intersecção entre a reta que passa pelos pontos $(x_n, f(x_n))$ e $(x_{n-1}, f(x_{n-1}))$ e o eixo $x$:
 <p>
 </details>
-
+<details><summary><h2><b> Método da Secante</h2></b></summary>
+Socoooorrroooooo
+</details>
 ## Referências
 Burden, R.L. and Faires, J.D., 2003. Análise numérica. Thomson. <br />
 Conte, S., 1965. Elementary numerical analysis. McGraw Hill. <br />
