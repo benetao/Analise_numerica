@@ -107,7 +107,7 @@ As principais ferramentas utilizadas para o meu aprendizado disciplina foram, pr
     - [x] Método da Bissecção
     - [x] Método de Newton
     - [x] Método da Secante
-    - [x] ...
+    - [x] Método Iterativo do Ponto Fixo
     
 - [ ] ...
    
