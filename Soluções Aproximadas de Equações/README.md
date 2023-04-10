@@ -131,8 +131,28 @@ Podemos observar, por meio da representação geométrica, que, ao aplicar essa 
 <p>
 </details>
 <details><summary><h2><b> Método Iterativo do Ponto Fixo</h2></b></summary>
-Socoooorrroooooo
+
+Em python, o método iterativo do ponto fixo pode ser implementado pelo código abaixo, presente no jupyter notebook [Problema do Ponto Fixo](https://github.com/benetao/Analise_numerica/blob/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es/Problema_do_Ponto_Fixo.ipynb) dessa pasta:
+
+```python
+def ponto_fixo(f, x, eps):
+    """
+    Encontra uma raiz da função f usando o método iterativo do ponto fixo,
+    com chute inicial x e critério de parada eps.
+    
+    Retorna a raiz encontrada e o número de iterações.
+    """
+    i = 0
+    while True:
+        x_next = f(x) # o x seguinte será o valor de g(x) medido anteriormente
+        if abs(x_next - x) < eps: # o código vai parar quando os x obtidos praticamente pararem de variar
+            break
+        x = x_next
+
+    print(f"A solução é x = {x_next}. E o número de iterações foi i = {i}")
+```
 </details>
+
 ## Referências
 Burden, R.L. and Faires, J.D., 2003. Análise numérica. Thomson. <br />
 Conte, S., 1965. Elementary numerical analysis. McGraw Hill. <br />
