@@ -144,6 +144,7 @@ def ponto_fixo(f, x, eps):
     """
     i = 0
     while True:
+    i= i+1
         x_next = f(x) # o x seguinte será o valor de g(x) medido anteriormente
         if abs(x_next - x) < eps: # o código vai parar quando os x obtidos praticamente pararem de variar
             break
