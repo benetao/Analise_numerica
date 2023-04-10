@@ -12,7 +12,7 @@ No entanto, se $f(p)$ tiver o mesmo valor de $f(a)$, consideramos $a= p$ e $b= b
 
 Se $f(p)$ tiver o mesmo valor de $f(b)$, ou, ainda, se $f(a)$ e $f(b)$ tiverem o mesmo sinal consideramos $a= a$ e $b= p$.
 
-Repetimos esse processo até que a diferença entre p e a raíz real da função seja menor que a precisão que queremos (também chamada, no código, de critério de parada).
+Repetimos esse processo até que a diferença entre p e a raíz real da função seja menor que a precisão que queremos (também chamada, no código, de critério de parada ou "eps").
 
 Em python, o método da bissecção pode ser implementado pelo código abaixo, presente no jupyter notebook [Método de Bissecção](https://github.com/benetao/Analise_numerica/blob/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es/Metodo_de_Bisseccao.ipynb) dessa pasta:
 ```python
@@ -132,6 +132,7 @@ Podemos observar, por meio da representação geométrica, que, ao aplicar essa 
 </details>
 <details><summary><h2><b> Método Iterativo do Ponto Fixo</h2></b></summary>
 
+
 Em python, o método iterativo do ponto fixo pode ser implementado pelo código abaixo, presente no jupyter notebook [Problema do Ponto Fixo](https://github.com/benetao/Analise_numerica/blob/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es/Problema_do_Ponto_Fixo.ipynb) dessa pasta:
 
 ```python
@@ -152,6 +153,12 @@ def ponto_fixo(f, x, eps):
 
     print(f"A solução é x = {x_next}. E o número de iterações foi i = {i}")
 ```
+
+### Representação Geométrica
+
+
+<p align="center"><img heigth= 120 width= 550 src= "https://user-images.githubusercontent.com/106626661/230922798-5e43261d-e5fa-4f24-bbb9-3541a190b142.png">
+
 </details>
 
 ## Referências
