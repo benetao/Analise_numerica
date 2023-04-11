@@ -181,7 +181,8 @@ def ponto_fixo(f, x, eps):
 
 
 <p align="center"><img heigth= 120 width= 550 src= "https://user-images.githubusercontent.com/106626661/230922798-5e43261d-e5fa-4f24-bbb9-3541a190b142.png">
-Na figura de cima, o método iterativo do ponto fixo **diverge** da solução, enquanto na figura abaixo ele converge.
+
+ Na figura de cima, o método iterativo do ponto fixo **diverge** da solução, enquanto na figura abaixo ele converge.
 
 </details>
 
