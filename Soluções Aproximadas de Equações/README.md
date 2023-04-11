@@ -132,6 +132,29 @@ Podemos observar, por meio da representação geométrica, que, ao aplicar essa 
 </details>
 <details><summary><h2><b> Método Iterativo do Ponto Fixo</h2></b></summary>
 
+ No Método de Iteração do Ponto Fixo, nós transformarmamos a equação $f(x) = 0$, usada para calcular a raíz da função, em uma forma equivalente $x = g(x)$, onde $g(x)$ é uma função chamada de função iterativa.
+
+A fórmula geral para o método iterativo do ponto fixo é:
+
+$x_{n+1} = g(x_n)$
+
+onde:
+
+* $x_n$ é o valor da solução na iteração n
+* $x_{n+1}$ é o valor aproximado da solução na iteração seguinte (n+1)
+* $g(x)$ é a função iterativa que é escolhida de forma a transformar a equação original f(x) = 0 em x = g(x)
+
+**Critério de convergência do método do ponto fixo**: O método iterativo do ponto fixo converge para a solução exata quando o valor absoluto da derivada de g(x) for menor que 1 em uma vizinhança da solução. É importante notar que o método iterativo do ponto fixo pode não convergir em algumas situações, como mostrado na imagem abaixo, ou pode convergir para soluções diferentes dependendo da função iterativa escolhida e do valor inicial $x_0$. Portanto, a escolha adequada da função iterativa e do valor inicial é fundamental para o sucesso do método.
+
+**Vantagens**: 
+* Simplicidade: é geralmente mais simples de implementar e entender em comparação com os métodos da secante, de Newton e da bissecção, pois envolve apenas a iteração de uma fórmula simples.
+
+* Estabilidade:  é normalmente mais estável em comparação com os métodos da secante e de Newton, que podem ser sensíveis a escolhas iniciais inadequadas ou a funções com características específicas, como pontos de inflexão ou descontinuidades. O método da bissecção também é estável, mas pode ser mais lento em termos de convergência em comparação com o método do ponto fixo.
+
+* Intervalo de busca mais amplo: não requer a derivação da função original, como é o caso dos métodos da secante e de Newton, o que pode ser uma vantagem quando a função é difícil de derivar ou quando não se tem acesso à sua derivada. Além disso, o método do ponto fixo pode ter um intervalo de busca mais amplo em comparação com o método da bissecção, que requer a mudança de sinal da função em um intervalo.
+
+
+
 
 Em python, o método iterativo do ponto fixo pode ser implementado pelo código abaixo, presente no jupyter notebook [Problema do Ponto Fixo](https://github.com/benetao/Analise_numerica/blob/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es/Problema_do_Ponto_Fixo.ipynb) dessa pasta:
 
@@ -158,6 +181,7 @@ def ponto_fixo(f, x, eps):
 
 
 <p align="center"><img heigth= 120 width= 550 src= "https://user-images.githubusercontent.com/106626661/230922798-5e43261d-e5fa-4f24-bbb9-3541a190b142.png">
+Na figura de cima, o método iterativo do ponto fixo **diverge** da solução, enquanto na figura abaixo ele converge.
 
 </details>
 
