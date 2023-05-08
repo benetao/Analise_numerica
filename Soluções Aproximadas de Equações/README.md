@@ -181,14 +181,44 @@ def ponto_fixo(f, x, eps):
 
 
 <p align="center"><img heigth= 120 width= 550 src= "https://user-images.githubusercontent.com/106626661/230922798-5e43261d-e5fa-4f24-bbb9-3541a190b142.png">
-
+m
  Na figura de cima, o método iterativo do ponto fixo **diverge** da solução, enquanto na figura abaixo ele converge.
 
 </details>
-<details><summary><h2><b> Método Iterativo de Euler</h2></b></summary>
-aaa
+<details><summary><h2><b> Método de Euler</h2></b></summary>
+
+Em python, o método iterativo do ponto fixo pode ser implementado pelo código abaixo, presente no jupyter notebook [Metodo de Euler](https://github.com/benetao/Analise_numerica/blob/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es/Metodo_de_Euler.ipynb) dessa pasta:
+
+```python
+def metodo_euler(f, x0, h, crit_parada, lamb):
+    """
+    Implementa método de Euler para resolver a equação de Malthus.
+
+    Args:
+        f : função que define a equação diferencial.
+        x0 : valor inicial da população.
+        h : tamanho do passo de integração.
+        crit_parada : número de iterações do código.
+        lambda : taxa de crescimento populacional.
+
+    Returns:
+        listas do eixo x e do eixo y para plotar o gráfico
+    """
+    y_euler = [y0]  # Lista para armazenar as soluções do eixo y
+    x_euler = [0]  # Lista para armazenar valores do eixo x
+    y = y0  # Valor inicial
+
+    for i in range(crit_parada):
+        y += h * f(y, x_euler[-1], lamb)  # Atualiza y usando o método de Euler
+        t = (i + 1) * h  # Atualiza t
+        x_euler.append(t)
+        y_euler.append(y)
+
+    return x_euler, y_euler
+ ```
 </details>
-<details><summary><h2><b> Método Iterativo de Runge-Kutta</h2></b></summary>
+
+<details><summary><h2><b> Método de Runge-Kutta</h2></b></summary>
 aaa
 </details>
 ## Referências
