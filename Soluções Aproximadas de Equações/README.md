@@ -185,7 +185,12 @@ def ponto_fixo(f, x, eps):
  Na figura de cima, o método iterativo do ponto fixo **diverge** da solução, enquanto na figura abaixo ele converge.
 
 </details>
-
+<details><summary><h2><b> Método Iterativo de Euler</h2></b></summary>
+aaa
+</details>
+<details><summary><h2><b> Método Iterativo de Runge-Kutta</h2></b></summary>
+aaa
+</details>
 ## Referências
 Burden, R.L. and Faires, J.D., 2003. Análise numérica. Thomson. <br />
 Conte, S., 1965. Elementary numerical analysis. McGraw Hill. <br />
