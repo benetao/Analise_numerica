@@ -108,10 +108,9 @@ As principais ferramentas utilizadas para o meu aprendizado disciplina foram, pr
     - [x] Método de Newton
     - [x] Método da Secante
     - [x] Método Iterativo do Ponto Fixo
+    - [x] Método Iterativo do Euler
+    - [x] Método Iterativo de Runge-Kutta
     
-- [ ] ...
-   
-
 Entre nas pastas [Sistema de Números e Estudo de Erro](https://github.com/benetao/Analise_numerica/tree/main/Sistemas%20de%20N%C3%BAmeros%20e%20Estudo%20de%20Erro) e [Soluções Aproximadas de Equações](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es) para acessar os notebooks e arquivos dos respectivos assuntos com explicações, códigos e resoluções de exercício. Se quiser ver os seus notebooks no seu próprio computador, baixe a pasta inteira para conseguir rodar o código com as imagens.
 
 <!-- CONTATO -->
