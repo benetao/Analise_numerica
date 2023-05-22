@@ -221,6 +221,12 @@ def metodo_euler(f, x0, h, crit_parada, lamb):
 <details><summary><h2><b> Método de Runge-Kutta</h2></b></summary>
 aaa
 </details>
+<details><summary><h2><b> Método do Trapézio</h2></b></summary>
+ socorro
+ </details>
+ <details><summary><h2><b> Método de Simpson</h2></b></summary>
+  $\frac{h}{3}[f(x_0) + 4f(x_1) + f(x_2)]$
+ </details>
 ## Referências
 Burden, R.L. and Faires, J.D., 2003. Análise numérica. Thomson. <br />
 Conte, S., 1965. Elementary numerical analysis. McGraw Hill. <br />
