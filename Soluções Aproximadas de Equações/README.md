@@ -225,6 +225,7 @@ aaa
  socorro
  </details>
  <details><summary><h2><b> Método de Simpson</h2></b></summary>
+ Terço de Simpson: ponto inicial, ponto final e ponto intermediário
   $\frac{h}{3}[f(x_0) + 4f(x_1) + f(x_2)]$
  </details>
 ## Referências
