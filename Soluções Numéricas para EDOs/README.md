@@ -1,7 +1,7 @@
 <img align="right" alt="ilum" height="40" width="150" src="https://github.com/pedrozanineli/pcd.github.io/blob/main/logo1.png">
 
 # Soluções Numéricas para Equações Diferenciais Ordinárias
-Ano passado, na disciplina de Equações Diferenciais do segundo semestre da Ilum, fomos apresentados aos PVIs (Problemas de Valores Iniciais), que se tratam basicamente de uma equação diferencial associada a uma condição inicial. Como exemplo, podemos descrever o crescimento de uma população que segue à lei de de uma população que  Verhulst (equação diferencial é  $x'(t)= \lambda x(t)$ ) e que começa com 2 indivíduos (condição inicial é $x(0)= 2$). Encontrar a solução exata para esse tipo de equação, muitas vezes, é uma tarefa muito difícil e, por isso, faz-se necessário o uso de aproximações numéricas. Para obter essas aproximações, podemos utilizar um dos dois métodos descritos abaixo!
+Ano passado, na disciplina de Equações Diferenciais do segundo semestre da Ilum, fomos apresentados aos PVIs (Problemas de Valor Inicial), que se tratam basicamente de uma equação diferencial associada a uma condição inicial. Como exemplo, podemos descrever o crescimento de uma população que segue à lei de de uma população que  Verhulst (equação diferencial é  $x'(t)= \lambda x(t)$ ) e que começa com 2 indivíduos (condição inicial é $x(0)= 2$). Encontrar a solução exata para esse tipo de equação, muitas vezes, é uma tarefa muito difícil e, por isso, faz-se necessário o uso de aproximações numéricas. Para obter essas aproximações, podemos utilizar um dos dois métodos descritos abaixo!
 
 
 <details><summary><h2><b> Método de Euler</h2></b></summary>
