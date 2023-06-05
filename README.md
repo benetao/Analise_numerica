@@ -68,7 +68,9 @@ O foco é explorar alguns recursos computacionais para estudar problemas envolve
 * `Sistemas de Números` 
 * `Estudo de Erro`
 * `Soluções aproximadas de equações`
-* `...`
+* `Soluções Numéricas para EDOs`
+* `Integração Numérica`
+* `Soluções Numéricas para EDPs`
 
 ### O Repositório <a name= "projeto"></a>
 
@@ -101,17 +103,22 @@ As principais ferramentas utilizadas para o meu aprendizado disciplina foram, pr
 - [x] Sistema de Números e Estudo de Erro
     - [x] Representação de Números
     - [x] Aritmética Computacional
-    - [x] Tipos de Erros
-    
-- [ ] Soluções Aproximadas de Equações
+    - [x] Tipos de Erros  
+- [x] Soluções Aproximadas de Equações
     - [x] Método da Bissecção
     - [x] Método de Newton
     - [x] Método da Secante
     - [x] Método Iterativo do Ponto Fixo
-    - [x] Método Iterativo do Euler
+- [x] Soluções Numéricas para EDOs
+    - [x] Método Iterativo de Euler
     - [x] Método Iterativo de Runge-Kutta
+- [x] Intergração Numérica
+    - [x] Método do Trapézio (Simples e Composto)
+    - [x] MMétodo do Simpson (Simples e Composto)
+- [x] Soluções Numéricas para EDPs
+   - [x] Método das Diferenças Finitas
     
-Entre nas pastas [Sistema de Números e Estudo de Erro](https://github.com/benetao/Analise_numerica/tree/main/Sistemas%20de%20N%C3%BAmeros%20e%20Estudo%20de%20Erro) e [Soluções Aproximadas de Equações](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es) para acessar os notebooks e arquivos dos respectivos assuntos com explicações, códigos e resoluções de exercício. Se quiser ver os seus notebooks no seu próprio computador, baixe a pasta inteira para conseguir rodar o código com as imagens.
+Entre nas pastas [Sistema de Números e Estudo de Erro](https://github.com/benetao/Analise_numerica/tree/main/Sistemas%20de%20N%C3%BAmeros%20e%20Estudo%20de%20Erro), [Soluções Aproximadas de Equações](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es), [Soluções Numéricas para EDOs](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Num%C3%A9ricas%20para%20EDOs), [Integração Numérica](https://github.com/benetao/Analise_numerica/tree/main/Integra%C3%A7%C3%A3o%20Num%C3%A9rica), e [Soluções Numéricas para EDPs]() para acessar os notebooks e arquivos dos respectivos assuntos com explicações, códigos e resoluções de exercício. Se quiser ver os seus notebooks no seu próprio computador, baixe a pasta inteira para conseguir rodar o código com as imagens.
 
 <!-- CONTATO -->
 ## Contato <a name="contato"></a>
