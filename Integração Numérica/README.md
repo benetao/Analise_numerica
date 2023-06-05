@@ -7,7 +7,7 @@ Ambos esses métodos são quadraduras numéricas, isto é, variações do métod
 
 <details><summary><h2><b> Método do Trapézio</h2></b></summary>
     
-O método de integração numérica do trapézio é uma técnica para aproximar o valor de uma integral definida usando uma abordagem geométrica simples. Ele divide a área sob uma curva em um (no caso do método do trapézio simples) ou mais trapézios trapézios e calcula a soma dessas áreas para obter uma estimativa da integral.
+O método de integração numérica do trapézio é uma técnica para aproximar o valor de uma integral definida usando uma abordagem geométrica simples. Ele divide a área sob uma curva em um (no caso do método do trapézio simples) ou mais trapézios (no caso do método do trapézio composto) e calcula a soma dessas áreas para obter uma estimativa da integral.
 
 No caso do trapézio simples, a integral é aproximada usando apenas um trapézio, utilizando a seguinte expressão:
 
@@ -82,7 +82,7 @@ def metodo_do_trapezio_simples(f, a, b):
     
 O método de Simpson é muito similar ao do Trapézio, mas, por utilizar o polinômio de Lagrange de ordem 2, não aproxima a função de trapézios, mas sim de curvas.
 Para tanto, o método de Simpson simples divide a função não só em dois pontos, como fazia-se no método do Trapézio, mas em três pontos- o chamado terço de Simpson (ponto inicial, ponto final e ponto intermediário). Logo, para Simpson simples (apenas uma curva), temos a seguinte expressão:
-  $$\frac{h}{3}[f(x_0) + 4f(x_1) + f(x_2)]$$
+  $$\int_{a}^{b} f(x) dx ≈ \frac{h}{3}[f(x_0) + 4f(x_1) + f(x_2)]$$
 Mas, assim como o método do Trapézio também pode ser composto e dividir a função em mais de um trapézio, tembém existe o método de Simpson composto, que divide a função e a aproxima de mais de uma curva, como mostra a Figura 4. A expressão do Método de Simpson Composto é:
 $$\int_{a}^{b} f(x) dx \approx \frac{h}{3} \left[ f(x_0) + 4f(x_1) + 2f(x_2) + 4f(x_3) + 2f(x_4) + \ldots + 2f(x_{n-2}) + 4f(x_{n-1}) + f(x_n) \right]$$
 
