@@ -9,7 +9,7 @@ Ano passado, na disciplina de Equações Diferenciais do segundo semestre da Ilu
  O método de Euler é considerado um dos mais simples e fáceis de ser implementado computacionalmente, com um custo computacional relativamente baixo (quando comparado aos outros métodos). Sua expressão pode ser obtida através da expansão de Taylor da definição de derivada no ponto $t_p$:
  $$x'(t_p)= lim(t \rightarrow t_p) \frac{x(t) - x(t_p)}{t - t_p}$$
 A partir dessa definição de derivada e considerando que, no método de Euler, o passo ($h= t-t_p$) é sempre constante, podemos chegar à expressão deral do método:
- $$ x_{n+1}= x_n + hf(t_n,x_n) $$.
+ $$x_{n+1}= x_n + hf(t_n,x_n)$$.
  E seu erro pode ser calculado por $O(h^2)$. Ou seja, quando menor o passo $h$, melhor a aproximação! 
  Entretanto, isso significa que, para obtermos um bom resultado, precisamos de um número muito grande de passos e, por consequência, o custo computacional é muito alto. Isso é ua desvantagem do método de Euler, que, apesar de ser mais simples que os outros métodos, também pode ser muito mais custoso computacionalmente.
  
