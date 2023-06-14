@@ -114,11 +114,11 @@ As principais ferramentas utilizadas para o meu aprendizado disciplina foram, pr
     - [x] Método Iterativo de Runge-Kutta
 - [x] Intergração Numérica
     - [x] Método do Trapézio (Simples e Composto)
-    - [x] MMétodo do Simpson (Simples e Composto)
+    - [x] Método do Simpson (Simples e Composto)
 - [x] Soluções Numéricas para EDPs
    - [x] Método das Diferenças Finitas
     
-Entre nas pastas [Sistema de Números e Estudo de Erro](https://github.com/benetao/Analise_numerica/tree/main/Sistemas%20de%20N%C3%BAmeros%20e%20Estudo%20de%20Erro), [Soluções Aproximadas de Equações](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es), [Soluções Numéricas para EDOs](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Num%C3%A9ricas%20para%20EDOs), [Integração Numérica](https://github.com/benetao/Analise_numerica/tree/main/Integra%C3%A7%C3%A3o%20Num%C3%A9rica), e [Soluções Numéricas para EDPs](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Num%C3%A9ricas%20para%20EDPs) para acessar os notebooks e arquivos dos respectivos assuntos com explicações, códigos e resoluções de exercício. Se quiser ver os seus notebooks no seu próprio computador, baixe a pasta inteira para conseguir rodar o código com as imagens.
+Entre nas pastas [Sistema de Números e Estudo de Erro](https://github.com/benetao/Analise_numerica/tree/main/Sistemas%20de%20N%C3%BAmeros%20e%20Estudo%20de%20Erro), [Soluções Aproximadas de Equações](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Aproximadas%20de%20Equa%C3%A7%C3%B5es), [Soluções Numéricas para EDOs](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Num%C3%A9ricas%20para%20EDOs), [Integração Numérica](https://github.com/benetao/Analise_numerica/tree/main/Integra%C3%A7%C3%A3o%20Num%C3%A9rica) e [Soluções Numéricas para EDPs](https://github.com/benetao/Analise_numerica/tree/main/Solu%C3%A7%C3%B5es%20Num%C3%A9ricas%20para%20EDPs) para acessar os notebooks e arquivos dos respectivos assuntos com explicações, códigos e resoluções de exercício. Se quiser ver os seus notebooks no seu próprio computador, baixe a pasta inteira para conseguir rodar o código com as imagens.
 
 <!-- CONTATO -->
 ## Contato <a name="contato"></a>
@@ -151,9 +151,9 @@ Sem a ajuda dos meus professores e colegas, eu não teria conseguido chegar até
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://user-images.githubusercontent.com/106626661/228932253-400d7535-b2e7-4b29-b670-b3cec9a61be5.png" width="100px;" alt="Foto do Prof"/><br>
+        <img src="https://github.com/benetao/Analise_numerica/assets/106626661/45aea1f1-9e31-49df-8a23-03878ccceee3" width="100px;" alt="Foto do Prof"/><br>
         <sub>
-          <b>Daniel Cassar (Professor)</b>
+          <b>Ygor Ruas (Colega)</b>
         </sub>
       </a>
     </td>
