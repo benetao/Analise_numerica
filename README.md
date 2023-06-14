@@ -22,7 +22,7 @@
 
 <div align="center">
   <a href="![neural](https://user-images.githubusercontent.com/106626661/225796535-51b41213-8397-435d-ab94-dc64551a2da1.gif)">
-    <img src="https://user-images.githubusercontent.com/106626661/228412974-4221b846-1bd9-4c57-99a8-2c49c5466af9.png" alt="Logo" width="440" height="230">
+    <img src="https://github.com/benetao/Analise_numerica/assets/106626661/53079267-6565-43c2-ae2d-c8a6d2411092" alt="Logo" width="440" height="230">
   </a>
 
   <h3 align="center">Repositório de Análise Numérica</h3>
