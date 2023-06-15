@@ -62,7 +62,7 @@
 <!-- Sobre a Disciplina e o Projeto -->
 ## Sobre a Disciplina <a name="sobre"></a>
 
-Na disciplina de Análise Numérica, ministrada pelo professor Vinícius Wasques, nós- alunos- somos introduzidos a ideias e conceitos matemáticos que complementam o conteúdo visto nas disciplinas de Equações Diferenciais e Álgebra Linear Computacional, nos semestres anteriores. 
+Na disciplina de Análise Numérica, ministrada pelo professor Vinícius Wasques, nós- alunos- somos introduzidos a ideias e conceitos matemáticos que complementam o conteúdo visto nas disciplinas de Equações Diferenciais e Álgebra Linear Computacional nos semestres anteriores. 
 
 O foco é explorar alguns recursos computacionais para estudar problemas envolvendo equações diferenciais do ponto de vista numérico. Por isso, decidi criar o presente repositório, a fim de organizar os códigos desenvolvidos ao longo dessa disciplina, que incluem conteúdos de: 
 * `Sistemas de Números` 
@@ -76,11 +76,11 @@ O foco é explorar alguns recursos computacionais para estudar problemas envolve
 
 Esse repositório foi criado para fins de organização pessoal da estudante. Nele, você encontra o conteúdo da matéria de Análise Numérica dividido em pastas. Nas pastas, está presente a explicação teórica de cada assunto no documento do README, que foi escrito com base no material de aula disponibilizado pelo professor. Além disso, em cada pasta há Jupyter Notebooks com as atividades realizadas em sala de aula, contendo as resoluções dos exercícios propostos em classe.
 
-Caso você queria abrir um dos notebooks em seu aparelho, basta baixar a pasta inteira , para então conseguir abrir 
+Caso você queria abrir um dos notebooks em seu aparelho, basta baixar a pasta inteira, para então conseguir abrir.
 
 ### Ferramentas <a name="ferramentas"></a>
 
-As principais ferramentas utilizadas para o meu aprendizado disciplina foram, principalmente, as plataformas Jupyter Notebook, em que escrevi os códigos usando a  linguagem Pyhton, o Geogebra, para vizualização de fórmulas e entendimento da análise geométrica dos problemas, e, por fim, o Github.
+As principais ferramentas utilizadas para o meu aprendizado disciplina foram, principalmente, as plataformas Jupyter Notebook, em que escrevi os códigos usando a linguagem Pyhton, o Geogebra, para vizualização de fórmulas e entendimento da análise geométrica dos problemas, e, por fim, o Github.
 </div>
 <div align="center">
  <img align="center" alt="Rafa-Python" height="70" width="70" src= https://user-images.githubusercontent.com/106626661/225802823-3edf4493-8191-433f-9152-7e73b941aadb.png>
