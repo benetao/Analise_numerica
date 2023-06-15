@@ -11,7 +11,7 @@ Existem dois principais métodos de aproximação:
 * `Arredondamento`: se o último dígito é maior ou igual a 5 então soma-se 1 ao dígito anterior; se o último dígito é menor que 5, então desconsidera-se o último dígito;
 * `Truncamento`: simplesmente desconsidera o último dígito
 
-Para calcular os erros gerado quando aproximamos um número $n$ para $n^*$, temos:
+Para calcular o erro gerado quando aproximamos um número $n$ para $n^*$, temos:
 
 * `Erro Absoluto`: $e(n)=$ $|n - n^*|$
 
@@ -43,7 +43,7 @@ def erro_relativo(valor_real, valor_aproximado):
 
 *`Algoritmo instável`: menos confiável, pois propaga o erro dos dados iniciais
 
-Algoritimos instáveis podem, muitas vezes, resultar num `Erro exponencial`, isto é, um erro para que,a pós $n$ operações sucessivas, pode ser calculado por $E_n = C^nE_0$, sendo C > 1. Normalmente, os resultados mais aceitáveis possuem `Erro Linerar`, geralmente resultantes de algoritmos estáveis. 
+Algoritimos instáveis podem, muitas vezes, resultar num `Erro exponencial`, isto é, um erro para que, após $n$ operações sucessivas, pode ser calculado por $E_n = C^nE_0$, sendo C > 1. Normalmente, os resultados mais aceitáveis possuem `Erro Linerar`, geralmente resultantes de algoritmos estáveis. 
 </details>
 
 ## Referências
